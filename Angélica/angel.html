@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Angélica Gomes</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Angélica Gomes</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpeg" alt="" class="home__img">
+
+                            <h1 class="home__title">Angélica <b>Gomes</b></h1>
+                            <h3 class="home__profession">Desenvolvedora Web</h3>
+
+                            <div>
+                                <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                <a download="" href="assets/pdf/ResumeCv_black.pdf" class="home__button-movil">Dowload CV - Black</a>
+                            </div>
+
+                              <div>
+                                <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                <a download="" href="assets/pdf/ResumeCv_white.pdf" class="home__button-movil">Dowload CV - White</a>
+                            </div>
+                            
+                        </div>
+
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Parque Mucajá - Japeri/RJ
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> angellicarodrigues@hotmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> (21) 96622-7519
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/angelgomes/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>
+                            @angelgomes
+                        </a>
+                        <a href="https://github.com/AngelicaRGomes" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i>
+                            @AngelicaRGomes
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+                    <p class="profile__description">Sou uma pessoa movida a ambientes de diversidade e que sejam capazes
+                        de promover o compartilhamento de ideias. Busco por locais onde a troca de opiniões e a
+                        qualificação do funcionário sejam priorizados, de modo que diferentes pessoas com backgrounds
+                        distintos compartilhem conhecimento. Como consequência, sempre possuí interesse em TI, obtendo
+                        técnico em informática em 2014 e retornando à área efetivamente em 2021, passando por outras
+                        experiências profissionais não correlatas de 2017 a 2020. O objetivo, neste momento, é me
+                        recolocar no mercado de trabalho para funções de desenvolvimento fullstack.</p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Educação</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
+                                <span class="education__studies">Unicesumar</span>
+                                <span class="education__year">2021 - 2023</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">ADMINISTRAÇÃO PÚBLICA</h3>
+                                <span class="education__studies">Universidade Federal Fluminense</span>
+                                <span class="education__year">2016 - 2020</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">TÉCNICO EM INFORMÁTICA</h3>
+                                <span class="education__studies">Educandário Senhor do Bonfim</span>
+                                <span class="education__year">2012 - 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Hard Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Sass
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> NodeJS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> JUnit 5
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Jest
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Docker
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiência</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">APPLICATION DEVELOPER</h3>
+                                <span class="experience__company">De julho de 2022 a fevereiro 2023 | IBM</span>
+                                <p class="experience__description">Trabalhei com a conta Bradesco Agro no
+                                    desenvolvimento de um chat de atendimento humano que objetiva ser utilizado para
+                                    casos onde o chat Watson não compreenda instruções dos clientes. O chat foi
+                                    desenvolvido em arquitetura de microsserviços e utiliza eventos sockets para as
+                                    requisições. Principais linguagens e frameworks: NodeJs, React e CSS; banco de
+                                    dados: MongoDB e PostgreSQL. <br /><br />
+                                    <strong>Competências: </strong>Git · IBM Cloud · Docker · PostgreSQL · MongoDB ·
+                                    Redis · React.js · NodeJS · JavaScript · Trabalho em equipe · Comunicação
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">IBM INTERN | GALA</h3>
+                                <span class="experience__company">De fevereiro de 2022 a julho de 2022 | IBM</span>
+                                <p class="experience__description"> Como parte do time interno GALA da IBM, desenvolvi
+                                    em Python robôs contratados por contas externas. Lidei com ferramentas como
+                                    Selenium, Pyautogui, Openpyxl, Pandas, Xlwings, módulos "os" e "subprocess", entre
+                                    outros. Também tive a oportunidade de mexer com Linux (Cloud) e Ansible no que tange
+                                    à administração dos robôs. <br /><br />
+                                    <strong>Competências: </strong>Git · Docker · Linux · Ansible ·
+                                    Python · Trabalho em equipe · Comunicação
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">IBM INTERN | BANCO DO BRASIL</h3>
+                                <span class="experience__company">De agosto de 2021 a fevereiro de 2022 | IBM </span>
+                                <p class="experience__description">Trabalhei por sete meses com testes unitários em
+                                    Java, utilizando JUnit5, e com Typescript, fazendo uso do Jest. O projeto auxiliado
+                                    foi o Open Banking do Banco do Brasil. <br /><br />
+                                    <strong>Competências: </strong>Git · Docker · Jest · JUnit 5 · Trabalho em equipe ·
+                                    Comunicação
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Badges e Certificados</h2>
+
+                    <div class="certificate__container bd-grid">
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Fundamentos de AWS, Escola da Nuvem - 2023</h3>
+                            <p class="certificate__description">O AWS Fundamentos da Escola da Nuvem é um programa
+                                rápido, 100% online, de curta duração, com o principal objetivo de introduzir os
+                                principais conceitos e serviços da nuvem AWS, dividido em aulas teóricas, laboratórios
+                                no ambiente AWS, atividades práticas e quizzes de revisão.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Enterprise Design Thinking Practitioner, IBM - 2022</h3>
+                            <p class="certificate__description">Conhecimento sobre a aplicação do Enterprise Design
+                                Thinking e seu valor.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">IBM Garage Essentials, IBM - 2022</h3>
+                            <p class="certificate__description">Compreensão da metodologia, ativos e plataformas do IBM
+                                Garage.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">IBM Agile Explore, IBM - 2021</h3>
+                            <p class="certificate__description">Compreensão fundamental dos valores, princípios e
+                                práticas ágeis que permite iniciar uma conversa ágil com colegas de trabalho e
+                                colegas.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Cloud Core, IBM, 2021</h3>
+                            <p class="certificate__description">Compreensão dos fundamentos da tecnologia de nuvem, como
+                                os plataformas e modelos de nuvem, incluindo IaaS, PaaS, SaaS, nuvens públicas, privadas
+                                e híbridas, aplicativos em nuvem e termos como virtualização, VMs, contêineres,
+                                armazenamento de objetos, microsserviços, serverless, nativo da nuvem e DevOps, bem como
+                                a prática na criação de uma conta Cloud e no
+                                provisionamento de serviços na IBM Cloud.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <!-- <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-888-777</li>
+                                <li>Email: user@email.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Mag. Developer</span>
+                            <h3 class="references__title">Mr. Robbinson Bass</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 999-888-777</li>
+                                <li>Email: user@email.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Espanhol <br/> Básico
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês <br/> Intermediário
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interesses</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Música</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Viagem</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-book interests__icon'></i>
+                            <span class="interests__name">Leitura</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
